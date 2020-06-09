@@ -1,0 +1,453 @@
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bootstrap Проект Зантария Олег</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<style type="text/css">
+	#medias, #galery{
+    margin-bottom: 3em;
+    height: auto;
+}
+#nagradi{
+    background-color: #B2B2B2;
+    padding: 3em 0px 0px 80px;
+}
+#galery{
+    background-color:   #73BDFF;
+}
+thead{
+    background-color:   #871F1F;
+}
+.thumb img {
+    -webkit-filter: grayscale(0);
+    width: 100%;
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.thumb img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.thumb {
+   padding: 5px;
+}
+.list-counter-square {
+  list-style: none;
+  counter-reset: list;
+  margin: 60px;
+  padding: 60px;
+  overflow: hidden;
+}
+.list-counter-square>li {
+  position: relative;
+  display: block;
+  height: auto;
+  line-height: 1.5rem;
+  margin-left: 2rem;
+  margin-bottom: .25rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  color: #fff;
+  background: #FFC200;
+}
+.list-counter-square>li:last-child {
+  margin-bottom: 0;
+}
+.list-counter-square>li::before {
+  content: counter(list);
+  counter-increment: list;
+  position: absolute;
+  left: -2rem;
+  top: 0;
+  bottom: 0;
+  width: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #fff;
+  background: #FFD540;
+}
+img{
+    width: 30%;
+    height: auto;
+}
+.container-fluid, .container{
+  padding-bottom: 2em;
+
+}
+#ilon{
+  width: 40%;
+  margin: 40px;
+}
+#filantr{
+    width: 80%;
+    margin-top: 30px;
+}
+</style>
+</head>
+<body>
+<header>
+	<!--NAVBAR-->
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">ИЛОН МАСК</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#spiski">Главная<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#photos">Фото</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nagradi">Награды</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#medias">Актуальные новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#vkladki">Карьера</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#filan">Филантропия</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galery">Фильмы</a>
+          </li>
+          <li class="nav-item dropdown ">
+	            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	              Проекты
+	            </a>
+	            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	              <a class="dropdown-item" href="#vkladki">X.com и PayPal</a>
+	              <a class="dropdown-item" href="#vkladki">SpaceX</a>
+	              <a class="dropdown-item" href="#vkladki">Tesla</a>
+	              <div class="dropdown-divider"></div>
+	              <a class="dropdown-item" href="#vkladki">SolarCity</a>
+	              <a class="dropdown-item" href="#vkladki">OpenAI</a>
+	              <div class="dropdown-divider"></div>
+	              <a class="dropdown-item" href="#vkladki">Neuralink</a>
+            </div>
+	      </li>
+        </ul>
+      </div>
+    </nav>
+</header>
+
+<!--MAIN-->
+<div id="spiski" class="container-fluid bg-white mt-4 pt-4">
+  <p>   </p>
+  <img id="ilon" src="https://vgorode.ua/img/article/5972/21_main-v1584377579.jpg" class="rounded float-left"  alt="Илон Маск" width="300px" height="auto">
+	<h1 class="display-3">Илон Маск </h1>
+  <p class="lead">
+  	американский предприниматель, изобретатель, инженер и миллиардер.
+  </p>
+  	<h5><small>
+  		<p>Сооснователь компании <abbr title="крупнейшая дебетовая электронная платёжная система">PayPal</abbr>; основатель, совладелец, генеральный директор и главный инженер компании <abbr title=" американская компания, производитель космической техники">SpaceX</abbr>; генеральный директор и главный идейный вдохновитель (Chief Product Architect) компании <abbr title="американская компания, производитель электромобилей">Tesla</abbr>; также был членом совета директоров компании <abbr title="американская энергетическая компания, расположенная в Сан-Матео, Калифорния, дочернее предприятие Tesla">SolarCity</abbr>, основанной его двоюродными братьями, до её слияния с Tesla.</p>
+    	<p>В рейтинге миллиардеров журнала Forbes на 2020 год занимает 31-е место с состоянием $24,6 млрд.</p>
+		<p>За выдающиеся заслуги перед наукой 9 мая 2018 года удостоен членства Лондонского королевского общества.</p>
+	</small></h5>
+
+	<!--LIST-->
+	<div class="container-fluid">
+	  <div class="row">
+	    <div class="col-3">
+	      <dl class="dl-horizontal ">
+	        <dt>Дата Рождения</dt>
+	          <dd>28 июня 1971</dd>
+	      </dl>
+	    </div>
+	    <div class="col-3">
+	      <dl class="dl-horizontal ">
+	        <dt>Гражданство</dt>
+	        <dd>
+	          <ul class="list">
+	            <li>ЮАР</li>
+	            <li>Канада</li>
+	            <li>США</li>
+	          </ul>
+	         </dd>
+	      </dl>
+	    </div>
+	    <div class="col-6">
+	      <dl class="dl-horizontal ">
+			    <dt>Образование</dt>
+			    <dd><ul class="list-unstyled">
+			    	<li>- Queen's School of Business (1992)</li>
+			    	<li>- Уортонская школа бизнеса (1995)</li>
+			    	<li>- Пенсильванский университет (1995)</li>
+			    	<li>- Pretoria Boys High School (1989)</li>
+			    	<li>- Waterkloof House Preparatory School</li>
+			    	<li>- Университет Куинс</li>
+			    	<li>- Стэнфордский университет</li>
+			    </ul>
+				</dd>
+			</dl>
+	    	</div>
+	 	 </div>	
+	  </div>
+	</div>	
+
+<!--PHOTO GALERY-->
+<div class="container-fluid bg-light">
+	<h1 class="display-4">Фото</h1>
+	<div id="photos" class="carousel slide container pb-4" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#photos" data-slide-to="0" class="active"></li>
+			<li data-target="#photos" data-slide-to="1"></li>
+			 <li data-target="#photos" data-slide-to="2"></li>
+		</ol>
+			<div class="carousel-inner">
+			<div class="carousel-item active">
+			      <img class="d-block w-100" src="https://goodstart.by/files/20180730121821.jpg" alt="Думающий Илон Маск">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="https://cdn5.vedomosti.ru/image/2020/3p/xycg/original-181.jpg" alt="Улыбающийся Илон Маск">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" src="https://imgclf.112.ua/original/2019/04/22/385807.jpg?timestamp=1555934837" alt="Илон Маск в костюме"> </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#photos" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#photos" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+		</div>
+	</div>
+
+<!--AWKWARDS-->	
+<div id="nagradi" class="container-fluid bg-warning"  style="margin-top: 50px; margin-bottom: 50px;">
+	<h1 class="display-4">Награды</h1>
+	<div class="container">
+	<ol class="list-counter-square">
+	  <li>В 2008 году журнал Esquire включил Маска в список 75 наиболее влиятельных людей XXI века<br> </li>
+	  <li>В июне 2011 года он был награждён <mark>премией Хайнлайна</mark> за достижения в коммерциализации космоса в 500 тыс. долларов США</li>
+	  <li>В феврале того же года журнал Forbes включил Маска в список <mark>20 наиболее влиятельных американских CEO</mark> в возрасте до сорока лет</li>
+	  <li>В ноябре 2013 года журнал Fortune назвал его <mark>предпринимателем года</mark>, а The Wall Street Journal назвал Маска CEO года</li>
+	</ol>
+	</div>
+</div>
+
+<!--ACTUAL NEWS-->	
+<div id="medias" class="container-fluid">
+  <h1 class="display-4">Актуальные новости</h1>
+  <ul class="list-unstyled">
+	  <li class="media">
+	    <img class="mr-3" src="https://img.gazeta.ru/files3/567/13108567/2020-06-04T220809Z_28591534_RC2M2H93QH4S_RTRMADP_3_TESLA-AMAZON-COM-pic4_zoom-1500x1500-4538.jpg" alt="Generic placeholder image">
+	    <div class="media-body">
+	      <h5 class="mt-0 mb-1">«Монополии — это плохо»: Маск потребовал «расчленить» Amazon</h5>
+	      Илон Маск вновь отметился в Twitter — на этот раз он решил выразить свое мнение касательно ритейл-гиганта Amazon. Глава Tesla и SpaceX выступил против компании Джеффа Безоса, призвав «расчленить» ее, чтобы не допустить монополию на рынке. Сообщается, что причиной для публичного выступления Маска стала книга о коронавирусе, которую Amazon отказался продавать.
+	    </div>
+	  </li>
+	  <li class="media my-4">
+	    <img class="mr-3" src="https://icdn.lenta.ru/images/2020/06/08/14/20200608142956410/pic_85af629c9161d2415707ae2843db6678.jpg" alt="Generic placeholder image">
+	    <div class="media-body">
+	      <h5 class="mt-0 mb-1">Илон Маск назвал главную цель SpaceX</h5>
+	      Для создания ракеты Starship с целью полетов на Луну и Марс необходимо действовать «резко и немедленно», говорится в корпоративной рассылке SpaceX, оказавшейся в распоряжении журналистов. «Пожалуйста, примите во внимание, что главным приоритетом SpaceX является Starship», — сообщил Маск в электронном письме, разосланном сотрудникам в субботу. CNBC не смогла получить оперативного комментария от представителя компании.
+	    </div>
+	  </li>
+	  <li class="media">
+	    <img class="mr-3" src="https://3dnews.ru/assets/external/illustrations/2020/06/08/1012850/01.jpg" alt="Generic placeholder image">
+	    <div class="media-body">
+	      <h5 class="mt-0 mb-1">«Бесконечность — не предел»: Илон Маск призвал сотрудников SpaceX сосредоточиться на Starship</h5>
+	      Неделю назад SpaceX впервые доставила на орбиту космонавтов на своей ракете. Но исполнительный директор Илон Маск (Elon Musk) не хочет, чтобы компания почивала на лаврах. Вместо этого руководитель во внутреннем электронном письме призвал сотрудников SpaceX «сильно и немедленно» ускорить работы над сверхтяжёлой ракетой-носителем Starship следующего поколения.
+	    </div>
+	  </li>
+	</ul>
+</div>
+
+<!--PROJECTS-->	
+<div class="container" id="vkladki">
+	<div  height="600px">
+		<h3 class="display-4">Карьера </h3>
+    <p class="lead">В 1996/1997 году Маск со своим братом основал компанию Zip2, которая специализировалась на программном обеспечении для новостных компаний. В 1999 году Zip2 была приобретена Compaq за 307 млн долларов. Маск получил 7 % от суммы продажи (22 млн долл.)</p>
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+		  <li class="nav-item" role="presentation">
+		    <a class="nav-link active " id="xcom-tab" data-toggle="tab" href="#xcom" role="tab" aria-controls="xcom" aria-selected="true">X.com и PayPal</a>
+		  </li>
+		  <li class="nav-item" role="presentation">
+		    <a class="nav-link" id="spacex-tab" data-toggle="tab" href="#spacex" role="tab" aria-controls="spacex" aria-selected="false">SpaceX</a>
+		  </li>
+		  <li class="nav-item" role="presentation">
+		    <a class="nav-link" id="tesla-tab" data-toggle="tab" href="#tesla" role="tab" aria-controls="tesla" aria-selected="false">Tesla</a>
+		  </li>
+		  <li class="nav-item" role="presentation">
+		    <a class="nav-link" id="solar-tab" data-toggle="tab" href="#solar" role="tab" aria-controls="solar" aria-selected="false">SolarCity</a>
+		  </li>
+		  <li class="nav-item" role="presentation">
+		    <a class="nav-link" id="open-tab" data-toggle="tab" href="#open" role="tab" aria-controls="open" aria-selected="false">OpenAI</a>
+		  </li>
+		</ul>
+	</div>	
+	<div class="tab-content" id="myTabContent">
+	  <div class="tab-pane fade show active mt-3" id="xcom" role="tabpanel" aria-labelledby="xcom-tab">
+	  	<img src="https://annydhumu.files.wordpress.com/2018/06/paypal-logo-517140-1123162650.jpg?w=1100" class="float-right m-3 rounded">
+	  	<p>В марте 1999 года Маск стал одним из основателей X.com. В 2000 году X.com произвела слияние с компанией Confinity, одно из отделений которой имело название PayPal. Обе системы (X.com и PayPal) занимались обеспечением персональных электронных денежных переводов посредством электронной почты, и целью сделки было слияние обеих платёжных систем, однако этого не произошло. Маск решительно выступал за бренд X.com вместо PayPal, что вызвало внутрикорпоративные разногласия, закончившиеся в конце концов отставкой Маска по решению Совета директоров. Однако стратегическое решение Илона о слиянии двух компаний, наряду с активным продвижением электронной системы оплаты на Интернет-аукционах (в первую очередь, eBay), привело в 2001 году к быстрому росту предприятия, которое было окончательно переименовано в PayPal. Столь внушительные успехи позволили компании произвести размещение акций на бирже в феврале 2002 года (и при этом стать первой из дотком-компаний, вышедших на биржу после террористических актов 11 сентября 2001 года). В октябре 2002 года PayPal была куплена eBay за 1,5 млрд долларов США. На момент продажи Маску принадлежали 11,7 % акций компании[42], что позволило ему выручить 180 млн долларов[43].</p>
+	  </div>
+	  <div class="tab-pane fade mt-3" id="spacex" role="tabpanel" aria-labelledby="spacex-tab">
+	  	<img src="https://static.ukrinform.com/photos/2019_06/thumb_files/630_360_1561452975-855.jpg" class="rounded float-left m-3">
+	  	<p>В мае 2002 года Маск основал свою третью компанию — SpaceX. Она является частным разработчиком серии ракет-носителей и коммерческим оператором космических систем.</p>
+	  	<p>В декабре 2008 года НАСА подписало с компанией контракт на сумму 1,6 млрд долларов США на 12 запусков носителя Falcon 9 и космического корабля Dragon к МКС, в качестве замены кораблей Space Shuttle после прекращения программы их запуска в 2011 году.</p>
+		<p>По утверждению самого Илона, большое влияние на него оказал цикл научно-фантастических романов «Основание» и взгляды Айзека Азимова на освоение космического пространства как развитие и сохранение человеческого бытия. Маск утверждал, что охват жизнью нескольких планет может служить защитой от угрозы исчезновения человечества.</p>
+	  </div>
+	  <div class="tab-pane fade mt-3" id="tesla" role="tabpanel" aria-labelledby="tesla-tab">
+		<img src="https://delo.ua/files/news/images/3610/17/picture2_tesla-poluchila-b_361017_p0.jpg" class="rounded float-right m-3">
+	  	<p>Американская компания, производитель электромобилей и (через свой филиал SolarCity) решений для хранения электрической энергии. В марте 2018 года акционеры компании проголосовали за повышение зарплаты Илону Маску до 3 млрд долларов в год. У него не останется фиксированного оклада, вместо этого он получит компенсацию в виде акций компании. Выплата компенсации будет зависеть от того, достигнет ли компания необходимых финансовых показателей.
+		<br>В октябре 2019 года Илон Маск заявил о том, что Tesla вышла в прибыль, а котировки акций компании поднялись на 20 %</p>
+	</div>
+	  <div class="tab-pane fade mt-3" id="solar" role="tabpanel" aria-labelledby="solar-tab">
+	  	<p>Американская энергетическая компания, расположенная в Сан-Матео, Калифорния, дочернее предприятие Tesla.</p>
+	  </div>
+	  <div class="tab-pane fade mt-3" id="open" role="tabpanel" aria-labelledby="open-tab">
+	  	<p>Некоммерческая исследовательская компания из Сан-Франциско, занимающаяся искусственным интеллектом. Цель компании — развивать открытый, дружественный ИИ. Одним из основателей является Илон Маск.<br> 20 февраля 2018 года Илон Маск вышел из совета директоров OpenAI из-за возможного конфликта интересов. </p>
+	  </div>
+	</div>
+</div>
+
+<!--PHILANTROPY-->
+<div id="filan" class="container-fluid bg-light">
+	<h1 class="display-4 ml-4">Филантропия</h1>
+	<div class="container" id="filantr">
+	  <div class="row">
+	    <div class="col-3">
+	    	<p =>
+			‣ Илон стал председателем правления благотворительного фонда Musk Foundation. В январе 2015 года фонд пожертвовал 10 млн долларов для Института будущего человечества на <kbd>исследования контроля над искусственным интеллектом</kbd>.
+			</p>
+		</div>
+	    <div class="col-6">
+	    	<p =>
+			‣ В июле 2018 года предприниматель предложил свою помощь в операции по <kbd>спасению детей</kbd> из затопленной пещеры Тхам Луанг. На помощь спасателям были отправлены четыре инженера из компаний Tesla, SpaceX и The Boring Company. Разработанная специально для этой операции мини-подлодка была доставлена в Таиланд, однако тайские спасатели отказались её задействовать. Спелеолог Верн Ансворт, сыгравший одну из ключевых ролей в операции по спасению, раскритиковал предложение Маска — по его словам, подлодка с жёстким каркасом «не смогла бы проплыть даже первые 50 метров от начала пещеры» и ему "следовало засунуть субмарину туда, где ему больно", назвав это PR акцией.
+			</p>
+	    </div>
+	    <div class="col-3">
+	    	<p =>
+			‣ В октябре 2019 года пожертвовал 1 миллион долларов на <kbd>высадку деревьев</kbd> в штатах, пострадавших от лесных пожаров.
+			</p>
+	    </div>
+	  </div>
+	</div>
+</div>
+
+<!--FILMS-->
+<div id="galery" class="container-fluid bg-dark ">
+	<h1 class="display-4 text-white">Фильмы</h1>
+
+	<div class="container">
+	<table class="table table-hover bg-light">
+  	<thead class="bg-light text-center">
+	    <tr>
+	      <th scope="col">Название фильма</th>
+	      <th scope="col">Год</th>
+	      <th scope="col">Роль</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <th scope="row">Железный человек 2</th>
+	      <td>2010</td>
+	      <td>Сцена происходит в ресторане незадолго до начала гонки. Но эти 10 секунд были весьма символичными, ведь именно тут встречаются Тони Старк и Илон Маск. Надо ли напоминать, что именно Илон Маск стал прототипом для создания образа Железного Человека.</td>
+	    </tr>
+	    <tr>
+	      <th scope="row">Теория большого взрыва</th>
+	      <td>2007</td>
+	      <td>По сюжету Илон Маск и один из главных персонажей Говард Воловиц случайно встречаются на кухне одного кафе, где оба моют посуду. Как выясняется, случайное появление знаменитости в столь захудалом месте связано с благотворительностью Илона, который в свободное время кормит бездомных людей.</td>
+	    </tr>
+	    <tr>
+	      <th scope="row">Детство Шелдона</th>
+	      <td>2017</td>
+	      <td>Зрителю предстает забавный эпизод, где знаменитый инженер листает тетрадку маленького мальчика, которая была написана в 1989. Шутка заключается в том, что в тетрадке описываются формулы расчета, которые в наши дни использует компания "Space X".</td>
+	    </tr>
+	    <tr>
+	      <th scope="row">Почему он?</th>
+	      <td>2016</td>
+	      <td>В комедии о непростых отношениях главы семейства с возлюбленным своей дочери, Илон Маск появляется в одном эпизоде. А именно, измученный глава семейства завязывает на вечеринке разговор с незнакомцем, который оказывается Илоном Маском.</td>
+	    </tr>
+	    <tr>
+	      <th scope="row">Мачете Убивает</th>
+	      <td>2013</td>
+	      <td>Еще один забавный момент с Илоном Маском. В фильме Мачете, инженер крепко пожимает руку главному злодею (играет Дэнни Трехо) прежде чем отправить его в космос на своей ракете.</td>
+	    </tr>
+	    <tr>
+	      <th scope="row">Симпсоны</th>
+	      <td>1989-...</td>
+	      <td>Своих мультяшных персонажей Илон Маск озвучивает самостоятельно. 26 сезон 12 серия</td>
+	    </tr>
+	    <tr>
+	      <th scope="row">Южный Парк</th>
+	      <td>1997-...</td>
+	      <td>13 сезон 6 серия</td>
+	    </tr>
+	  </tbody>
+	</table>
+</div>
+
+	<div class="container">
+	    <div class="row">
+	        <div class="col-4 thumb">
+	            <a data-fancybox="gallery" href="https://inteatr.ru/wp-content/uploads/2019/09/1508334070.jpg">
+	                <img class="img-responsive" src="https://inteatr.ru/wp-content/uploads/2019/09/1508334070.jpg" alt="">
+	            </a>
+	        </div>
+	        <div class="col-4 thumb">
+	            <a data-fancybox="gallery" href="https://avatars.mds.yandex.net/get-zen_doc/177006/pub_5bd761b913f8c633fb02af2c_5bd7dcc268be0c00aa8b50f8/scale_1200">
+	                <img class="img-responsive" src="https://avatars.mds.yandex.net/get-zen_doc/177006/pub_5bd761b913f8c633fb02af2c_5bd7dcc268be0c00aa8b50f8/scale_1200" alt="">
+	            </a>
+	        </div>
+	        <div class="col-4 thumb">
+	            <a data-fancybox="gallery" href="https://i.ytimg.com/vi/sQN0NzQxKVc/maxresdefault.jpg">
+	                <img class="img-responsive" src="https://i.ytimg.com/vi/sQN0NzQxKVc/maxresdefault.jpg" alt="">
+	            </a>
+	        </div>
+	        <div class="col-4 thumb">
+	            <a data-fancybox="gallery" href="https://avatars.mds.yandex.net/get-zen_doc/1348874/pub_5bd761b913f8c633fb02af2c_5bd76d75ebe8af00aad6295e/scale_1200">
+	                <img class="img-responsive" src="https://avatars.mds.yandex.net/get-zen_doc/1348874/pub_5bd761b913f8c633fb02af2c_5bd76d75ebe8af00aad6295e/scale_1200" alt="">
+	            </a>
+	        </div>
+	        <div class="col-4 thumb">
+	            <a data-fancybox="gallery" href="https://avatars.mds.yandex.net/get-zen_doc/237236/pub_5bd761b913f8c633fb02af2c_5bd76f30f9e1cc00ab164742/scale_1200">
+	                <img class="img-responsive" src="https://avatars.mds.yandex.net/get-zen_doc/237236/pub_5bd761b913f8c633fb02af2c_5bd76f30f9e1cc00ab164742/scale_1200" alt="">
+	            </a>
+	        </div>
+	        <div class="col-4 thumb">
+	            <a data-fancybox="gallery" href="https://avatars.mds.yandex.net/get-zen_doc/1108048/pub_5bd761b913f8c633fb02af2c_5bd7d96b45d57300ab3d1f96/scale_1200">
+	                <img class="img-responsive" src="https://avatars.mds.yandex.net/get-zen_doc/1108048/pub_5bd761b913f8c633fb02af2c_5bd7d96b45d57300ab3d1f96/scale_1200" alt="">
+	            </a>
+	        </div>      
+    	</div>
+	</div>
+
+<!--FOOTER-->
+<footer class="page-footer font-small bg-white">
+  <div class="footer-copyright text-center py-4">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/">Зантария Олег</a>
+  </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    	$(document).ready(function(){
+		    $(".fancybox").fancybox({
+		        openEffect: "none",
+		        closeEffect: "none"
+		    });
+		});
+    	$('.carousel').carousel({
+		  	interval: 2500
+		})
+</script>
+</body>
+</html>
